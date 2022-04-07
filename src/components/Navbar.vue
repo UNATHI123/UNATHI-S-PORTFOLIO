@@ -5,7 +5,9 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
       <h1 class="logo me-auto me-lg-0"><a href="index.html">UNATHI QOLWENI</a></h1>
-   <nav id="navbar" class="navbar order-last order-lg-0">
+   <nav id="navbar" class="navbar navbar-expand-lg navbar-light\">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
         <ul>
           <li><a class="nav-link scrollto " href="#hero">HOME</a></li>
           <li><a class="nav-link scrollto" href="#about">ABOUT</a></li>
@@ -15,7 +17,11 @@
           <li><a class="nav-link scrollto" href="#testimonials">TESTIMONIAL</a></li>
           <li><a class="nav-link scrollto" href="#contact">CONTACT</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon bg-light"></span>
+    </button>
+        <!--  -->
+            </div>
       </nav>
       <!-- .navbar -->
       <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex"></a>
@@ -65,31 +71,6 @@ export default {
   max-height: 40px;
 }
 
-/*--------------------------------------------------------------
-# Book a table button Menu
---------------------------------------------------------------*/
-.book-a-table-btn {
-  margin: 0 0 0 15px;
-  border: 2px solid #cda45e;
-  color: #fff;
-  border-radius: 50px;
-  padding: 8px 25px;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  transition: 0.3s;
-}
-.book-a-table-btn:hover {
-  background: #cda45e;
-  color: #fff;
-}
-@media (max-width: 992px) {
-  .book-a-table-btn {
-    margin: 0 15px 0 0;
-    padding: 8px 20px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu

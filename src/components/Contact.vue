@@ -41,27 +41,28 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form   @submit.prevent="handleSubmit" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required v-model="text">
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required v-model="email">
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="telephone" required v-model="tel">
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="8" placeholder="Message" required v-model="textarea"></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center">
+                <button type="submit">Send Message</button></div>
             </form>
 
           </div>
@@ -69,12 +70,42 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>
 
 </template>
 <script>
+
 export default {
-    
+ data(){
+	 return{
+		 text:"",
+		 email:"",
+		 tel:"",
+		 textarea:""
+		
+	 }
+ } ,
+ methods:{
+	handleSubmit(){
+   console.log(this.text,this.email,this.tel,this.textarea),
+    fetch('https://unathi-api.herokuapp.com/contact', {
+  method: 'POST',
+  body: JSON.stringify({
+   text:  this.text,
+   email: this.email,
+   tel: this.tel,
+   textarea: this.textarea
+   }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => alert(json.msg))
+  .catch((e)=>alert(e.msg));
+		
+	 },
+ }  
 }
 </script>
 <style>
@@ -86,7 +117,7 @@ export default {
   float: left;
   width: 44px;
   height: 44px;
-  background: orangered;
+  background: lightseagreen;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +148,7 @@ export default {
 }
 .contact .php-email-form .validate {
   display: none;
-  color: red;
+  color:lightseagreen;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -125,7 +156,7 @@ export default {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: lightseagreen;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -170,7 +201,7 @@ export default {
   color: #a49b89;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: orangered;
+  border-color: lightseagreen;
 }
 .contact .php-email-form input {
   height: 44px;
@@ -179,7 +210,7 @@ export default {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #cda45e;
+  background: lightseagreen;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -187,7 +218,7 @@ export default {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #d3af71;
+  background: lightseagreen;
 }
 @-webkit-keyframes animate-loading {
   0% {

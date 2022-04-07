@@ -7,11 +7,27 @@
       <div class="row">
         <div class="col-lg-8">
           <h1><span>UNATHI QOLWENI</span></h1>
-          <h2>ASPIRING WEB DEVELOPER</h2>
+<div class="typewriter">
+  <h2>ASPIRING WEB DEVELOPER</h2>
+</div><br><br>
+<div class="social-icons">
+  <a class="social-icon social-icon--codepen">
+    <i class="fa fa-codepen"></i>
+    <div class="tooltip">Codepen</div>
+  </a>
+  <a class="social-icon social-icon--github">
+    <i class="fa fa-github"></i>
+    <div class="tooltip">Github</div>
+  </a>
+  <a class="social-icon social-icon--linkedin">
+    <i class="fa fa-linkedin"></i>
+    <div class="tooltip">LinkedIn</div>
+  </a>
 
+</div>
           <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto">ABOUT ME</a>
-            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">CONTACT </a>
+            <a href="#about" class="btn-menu animated fadeInUp scrollto">ABOUT ME</a>
+            <a href="#contact" class="btn-book animated fadeInUp scrollto">CONTACT </a>
           </div>
         </div>
         
@@ -32,7 +48,7 @@ export default {
     #hero {
   width: 100%;
   height: 100vh;
-  background: url(https://images.pexels.com/photos/921319/pexels-photo-921319.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) top center;
+  background: url(https://images.pexels.com/photos/989946/pexels-photo-989946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -63,13 +79,9 @@ export default {
   font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
-  color:white;
+  color:black;
 }
-#hero h2 {
-  color:white;
-  margin-bottom: 10px 0 0 0;
-  font-size: 22px;
-}
+
 #hero .btns {
   margin-top: 30px;
 }
@@ -83,12 +95,12 @@ export default {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: white;
-  border: 2px solid #cda45e;
+  color: black;
+  border: 2px solid black;
 }
 #hero .btn-menu:hover, #hero .btn-book:hover {
-  background: crimson;
-  color: #fff;
+  background: lightseagreen;
+  color: black;
 }
 #hero .btn-book {
   margin-left: 15px;
@@ -209,5 +221,128 @@ export default {
     transform: scale(1, 1);
     opacity: 0;
   }
+}
+
+.typewriter h2 {
+  color: black !important;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid orange; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+.social-icons {
+  display: flex;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 2.5rem;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+.social-icon:hover {
+  color: #fff;
+}
+.social-icon:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, -150%);
+}
+.social-icon:active {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+}
+.social-icon--linkedin {
+  background: #006599;
+  color: #fff;
+}
+.social-icon--linkedin .tooltip {
+  background: #006599;
+  color: currentColor;
+}
+.social-icon--linkedin .tooltip:after {
+  border-top-color: #006599;
+}
+.social-icon--codepen {
+  background: #000;
+  color: #fff;
+}
+.social-icon--codepen .tooltip {
+  background: #000;
+  color: currentColor;
+}
+.social-icon--codepen .tooltip:after {
+  border-top-color: #000;
+}
+.social-icon--github {
+  background: #4284c0;
+  color: #fff;
+}
+.social-icon--github .tooltip {
+  background: #4284c0;
+  color: currentColor;
+}
+.social-icon--github .tooltip:after {
+  border-top-color: #4284c0;
+}
+.social-icon i {
+  position: relative;
+  top: 1px;
+}
+
+/* Tooltips */
+.tooltip {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 0.8rem 1rem;
+  border-radius: 40px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  opacity: 0;
+  pointer-events: none;
+  text-transform: uppercase;
+  transform: translate(-50%, -100%);
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+.tooltip:after {
+  display: block;
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  content: "";
+  border: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: transparent;
+  transform: translate(-50%, 100%);
 }
 </style>

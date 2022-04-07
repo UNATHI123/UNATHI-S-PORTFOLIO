@@ -3,7 +3,11 @@
 <Home />
 <About />
 <Skills />
+<Resume />
+<Projects />
 <Contact />
+
+
 </template>
 
 <script>
@@ -12,6 +16,10 @@ import  Home from './components/Home.vue'
 import  About from './components/About.vue'
 import  Skills from './components/Skills.vue'
 import Contact from './components/Contact.vue'
+import Resume from './components/Resume.vue'
+import Projects from './components/Projects.vue'
+
+
 export default {
 
   components: {
@@ -19,7 +27,9 @@ export default {
     Home,
     About,
     Skills,
-    Contact
+    Resume,
+    Contact,
+    Projects
   }
 }
 </script>
