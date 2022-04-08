@@ -9,7 +9,7 @@
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="about-img">
-               <img src="" alt="">
+               <img src="https://i.postimg.cc/FHCmQ49y/IMG-20211010-WA0002-removebg-preview-2.png" alt="">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
@@ -69,7 +69,6 @@ li span{
 }
 .about:before {
   content: "";
-  /* background: rgba(0, 0, 0, 0.8); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -77,24 +76,26 @@ li span{
   right: 0;
 }
 .about .about-img {
-  position: relative;
+  position:relative;
   transition: 0.5s;
+  object-fit: cover;
 }
 .about .about-img img {
   max-width: 100%;
   border: 4px solid rgba(255, 255, 255, 0.2);
   position: relative;
+  margin-left: 4rem;
 }
 .about .about-img::before {
   position: absolute;
   left: 20px;
   top: 20px;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   z-index: 1;
   content: "";
   border-left: 5px solid lightseagreen;
-  border-top: 5px solid lightseagreen;
+  border-top: 8px solid lightseagreen;
   transition: 0.5s;
 }
 .about .about-img::after {

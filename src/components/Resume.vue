@@ -100,8 +100,10 @@
 export default {
     
 }
+
 </script>
-<style >
+
+<style scoped >
   .resume .resume-title {
   font-size: 26px;
   font-weight: 400;

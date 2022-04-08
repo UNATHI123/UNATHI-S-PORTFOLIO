@@ -108,7 +108,7 @@ export default {
  }  
 }
 </script>
-<style>
+<style scoped >
     .contact .info {
   width: 100%;
 }

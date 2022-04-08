@@ -5,6 +5,7 @@
 <Skills />
 <Resume />
 <Projects />
+<Testimonials />
 <Contact />
 
 
@@ -18,6 +19,7 @@ import  Skills from './components/Skills.vue'
 import Contact from './components/Contact.vue'
 import Resume from './components/Resume.vue'
 import Projects from './components/Projects.vue'
+import Testimonials from './components/Testimonials.vue'
 
 
 export default {
@@ -29,7 +31,8 @@ export default {
     Skills,
     Resume,
     Contact,
-    Projects
+    Projects,
+    Testimonials
   }
 }
 </script>
@@ -59,9 +62,7 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
-  background-color: #1a1814;
-}
+
 
 .section-title {
   padding-bottom: 40px;
