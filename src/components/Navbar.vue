@@ -4,7 +4,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">UNATHI QOLWENI</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="about">UNATHI QOLWENI</a></h1>
    <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto " href="#hero">HOME</a></li>
@@ -18,7 +18,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
       <!-- .navbar -->
-      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex"></a>
+     
 
     </div>
   </header><!-- End Header -->  

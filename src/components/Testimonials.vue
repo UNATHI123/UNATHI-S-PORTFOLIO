@@ -1,329 +1,123 @@
-<template>
+<template >
  <section id="testimonials" class="testimonials">
-     <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="fade-up">
 
-     <div class="section-title">
-          <h2>Testimonials</h2>
-          <P>What they Say About Me !</P>
-       </div>
+        <div class="section-title">
+          <h2>TESTIMONIALS</h2>
+          <p>WHAT THEY ARE SAYING ABOUT ME </p>
+        </div>
 
-       <div class="wrapper">
-  <h1>Parallax Flipping Cards</h1>
-  <div class="cols">
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://unsplash.it/500/500/)">
-						<div class="inner">
-							<p>Diligord</p>
-              <span>Lorem ipsum</span>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-						  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="url(https://unsplash.it/511/511/)">
-						<div class="inner">
-							<p>Rocogged</p>
-              <span>Lorem ipsum</span>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://unsplash.it/502/502/)">
-						<div class="inner">
-							<p>Strizzes</p>
-              <span>Lorem ipsum</span>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://unsplash.it/503/503/)">
-						<div class="inner">
-							<p>Clossyo</p>
-              <span>Lorem ipsum</span>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://unsplash.it/504/504/">
-						<div class="inner">
-							<p>Rendann</p>
-              <span>Lorem ipsum</span>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://unsplash.it/505/505/)">
-						<div class="inner">
-							<p>Reflupper</p>
-              <span>Lorem ipsum</span>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://unsplash.it/506/506/)">
-						<div class="inner">
-							<p>Acirassi</p>
-              <span>Lorem ipsum</span>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col" ontouchstart="this.classList.toggle('hover');">
-				<div class="container">
-					<div class="front" style="background-image: url(https://unsplash.it/508/508/)">
-						<div class="inner">
-							<p>Sohanidd</p>
-              <span>Lorem ipsum</span>
-						</div>
-					</div>
-					<div class="back">
-						<div class="inner">
-							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
- </div>
-     </div>
- </section>
+  <div class="seismic__testimonial-container">        
+    <div class="seismic__testimonial-left">
+    <p class="seismic__testimonial-txt">
+      “Unathi pays attention to improve the aesthetics of the site as well as the functionality.
+	   Throughout the process she is responsive, and willing to work through issues as they arise and takes pride in her work.”
+    </p>
+    <div class="seismic__testimonial-btm">
+        <img class="seismic__testimonial-img" src="https://i.postimg.cc/3wB0FG4Y/Kyle1-min.jpg"  alt="" />
+        <div class="seismic_testimonial-btm-right">
+          <h3 class="seismic__testimonial-name">Kyle M'c Bryant</h3>
+          <p class="seismic__testimonial-subTxt">Collegue</p>
+      </div>
+      
+    </div>
+  </div>
+    
+    <div class="seismic__testimonial-right">
+    <p class="seismic__testimonial-txt">
+  “Unathi is a vision-focused individual that is determined to learn more and gain more experience from her surroundings.
+  She is dedicated to given assignments and strives to be the best that she can be.”
+    </p>
+      <div class="seismic__testimonial-btm">
+        <img class="seismic__testimonial-img" src="https://i.postimg.cc/Hx0Jkymf/Bongani2-min.jpg"  alt="" />
+        <div class="seismic_testimonial-btm-right">
+          <h3 class="seismic__testimonial-name">Bogani Nomamgola</h3>
+          <p class="seismic__testimonial-subTxt">Collegue &amp Friend</p>
+      </div>
+      
+    </div>
+    </div>
+   
+  </div>
+  <div class="seismic__testimonial-container">        
+    <div class="seismic__testimonial-left">
+    <p class="seismic__testimonial-txt">
+     “Unathi doesn't talk much she is always focused on her work, and she is hard working as well as  eager and determined.
+	 She has proven  to be  creative, disciplined and resilient.”
+    </p>
+    <div class="seismic__testimonial-btm">
+        <img class="seismic__testimonial-img" src="https://i.postimg.cc/CLFjpZmX/alex.jpg"  alt="" />
+        <div class="seismic_testimonial-btm-right">
+          <h3 class="seismic__testimonial-name">Alex Sexwale</h3>
+          <p class="seismic__testimonial-subTxt">Lecturer</p>
+      </div>
+      
+    </div>
+  </div>
+    
+    <div class="seismic__testimonial-right">
+    <p class="seismic__testimonial-txt">
+  “Unathi is a hardworking, patient individual. She works extremely well with others.
+   Her personality is so unique and she will be a great asset to have in any work environment.”
+    </p>
+      <div class="seismic__testimonial-btm">
+        <img class="seismic__testimonial-img" src="https://i.postimg.cc/Mpk8drVm/Amaarah2-min.jpg"  alt="" />
+        <div class="seismic_testimonial-btm-right">
+          <h3 class="seismic__testimonial-name">Amaarah January</h3>
+          <p class="seismic__testimonial-subTxt">Collegue </p>
+      </div>
+      
+    </div>
+    </div>
+  </div>
+
+
+	  </div>
+ </section>	
 </template>
 <script>
 export default {
-  
+	
 }
 </script>
 <style scoped>
-h1{
-  font-size: 2.5rem;
-  font-family: 'Montserrat';
-  font-weight: normal;
-  color: #444;
-  text-align: center;
+	.seismic__testimonial-container {
+  display: flex;
+  margin: 1rem 0;
+}
+.seismic__testimonial-container .seismic__testimonial-left,
+.seismic__testimonial-container .seismic__testimonial-right {
+  background: #f2f2f2;
+  padding: 2rem;
+  border-radius: 4px;
+  margin: 0 0.5rem;
+  transition: 0.22s ease-in-out;
+}
+.seismic__testimonial-container .seismic__testimonial-left:hover,
+.seismic__testimonial-container .seismic__testimonial-right:hover {
+  box-shadow: 0 0 13px 0 #f2f2f2;
+}
+.seismic__testimonial-container .seismic__testimonial-txt {
+  color: #333;
+  line-height: 30px;
+  font-size: 1.1rem;
   margin: 2rem 0;
 }
-
-.wrapper{
-  width: 100%;
-  margin: 0 auto;
-  max-width: 80rem;
-}
-
-.cols{
-  display: -webkit-box;
-  display: -ms-flexbox;
+.seismic__testimonial-container .seismic__testimonial-btm {
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
-
-.col{
-  width: calc(25% - 2rem);
-  margin: 1rem;
-  cursor: pointer;
+.seismic__testimonial-container .seismic__testimonial-btm .seismic_testimonial-btm-right {
+  margin: 0.6rem 1rem;
 }
-
-.container{
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-	-webkit-perspective: 1000px;
-	        perspective: 1000px;
+.seismic__testimonial-container .seismic__testimonial-btm .seismic_testimonial-btm-right .seismic__testimonial-name {
+  margin: 0;
 }
-
-.front,
-.back{
-  background-size: cover;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
-  border-radius: 10px;
-	background-position: center;
-	-webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-	transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-	-o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-	-webkit-backface-visibility: hidden;
-	        backface-visibility: hidden;
-	text-align: center;
-	min-height: 280px;
-	height: auto;
-	border-radius: 10px;
-	color: #fff;
-	font-size: 1.5rem;
+.seismic__testimonial-container .seismic__testimonial-btm .seismic_testimonial-btm-right .seismic__testimonial-subTxt {
+  margin: 0;
 }
-
-.back{
-  background: #cedce7;
-  background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-  background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-  background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+.seismic__testimonial-container .seismic__testimonial-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
 }
-
-.front:after{
-	position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    content: '';
-    display: block;
-    opacity: .6;
-    background-color: #000;
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-    border-radius: 10px;
-}
-.container:hover .front,
-.container:hover .back{
-    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-}
-
-.back{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.inner{
-    -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
-            transform: translateY(-50%) translateZ(60px) scale(0.94);
-    top: 50%;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    padding: 2rem;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    outline: 1px solid transparent;
-    -webkit-perspective: inherit;
-            perspective: inherit;
-    z-index: 2;
-}
-
-.container .back{
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-    -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-}
-
-.container .front{
-    -webkit-transform: rotateY(0deg);
-            transform: rotateY(0deg);
-    -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-}
-
-.container:hover .back{
-  -webkit-transform: rotateY(0deg);
-          transform: rotateY(0deg);
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-}
-
-.container:hover .front{
-  -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-}
-
-.front .inner p{
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  position: relative;
-}
-
-.front .inner p:after{
-  content: '';
-  width: 4rem;
-  height: 2px;
-  position: absolute;
-  background: #C6D4DF;
-  display: block;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  bottom: -.75rem;
-}
-
-.front .inner span{
-  color: rgba(255,255,255,0.7);
-  font-family: 'Montserrat';
-  font-weight: 300;
-}
-
-@media screen and (max-width: 64rem){
-  .col{
-    width: calc(33.333333% - 2rem);
-  }
-}
-
-@media screen and (max-width: 48rem){
-  .col{
-    width: calc(50% - 2rem);
-  }
-}
-
-@media screen and (max-width: 32rem){
-  .col{
-    width: 100%;
-    margin: 0 0 2rem 0;
-  }
-}  
 </style>

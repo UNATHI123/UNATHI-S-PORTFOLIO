@@ -85,13 +85,14 @@ li span{
   border: 4px solid rgba(255, 255, 255, 0.2);
   position: relative;
   margin-left: 4rem;
+  
 }
 .about .about-img::before {
   position: absolute;
   left: 20px;
   top: 20px;
   width: 50px;
-  height: 50px;
+  height: 30px;
   z-index: 1;
   content: "";
   border-left: 5px solid lightseagreen;

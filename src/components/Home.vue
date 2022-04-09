@@ -11,15 +11,15 @@
   <h2>ASPIRING WEB DEVELOPER</h2>
 </div><br><br>
 <div class="social-icons">
-  <a class="social-icon social-icon--codepen">
+  <a class="social-icon social-icon--codepen" href="https://codepen.io/unathi123" target="_blank">
     <i class="fa fa-codepen"></i>
     <div class="tooltip">Codepen</div>
   </a>
-  <a class="social-icon social-icon--github">
+  <a class="social-icon social-icon--github" href="https://github.com/UNATHI123" target="_bllank">
     <i class="fa fa-github"></i>
     <div class="tooltip">Github</div>
   </a>
-  <a class="social-icon social-icon--linkedin">
+  <a class="social-icon social-icon--linkedin" href="https://www.linkedin.com/in/unathi-qolweni-3584a0224/" target="_blank">
     <i class="fa fa-linkedin"></i>
     <div class="tooltip">LinkedIn</div>
   </a>
@@ -48,7 +48,7 @@ export default {
     #hero {
   width: 100%;
   height: 100vh;
-  background: url(https://images.pexels.com/photos/989946/pexels-photo-989946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) top center;
+  background: url(https://images.pexels.com/photos/2512387/pexels-photo-2512387.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) top center;
   background-size: cover;
   position: relative;
   padding: 0;
