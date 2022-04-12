@@ -7,7 +7,7 @@
       <h1 class="logo me-auto me-lg-0"><a href="about">UNATHI QOLWENI</a></h1>
    <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">HOME</a></li>
+          <li class="active"><a class="nav-link scrollto " href="#hero">HOME</a></li>
           <li><a class="nav-link scrollto" href="#about">ABOUT</a></li>
           <li><a class="nav-link scrollto" href="#skills">SKILLS</a></li>
           <li><a class="nav-link scrollto" href="#resume">RESUME</a></li>
@@ -25,10 +25,8 @@
  
 </template>
 <script>
-export default {
- 
-
-}
+  
+  
 </script>
 <style scoped >
   
@@ -65,31 +63,7 @@ export default {
   max-height: 40px;
 }
 
-/*--------------------------------------------------------------
-# Book a table button Menu
---------------------------------------------------------------*/
-.book-a-table-btn {
-  margin: 0 0 0 15px;
-  border: 2px solid #cda45e;
-  color: #fff;
-  border-radius: 50px;
-  padding: 8px 25px;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  transition: 0.3s;
-}
-.book-a-table-btn:hover {
-  background: #cda45e;
-  color: #fff;
-}
-@media (max-width: 992px) {
-  .book-a-table-btn {
-    margin: 0 15px 0 0;
-    padding: 8px 20px;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -126,7 +100,7 @@ export default {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #d9ba85;
+  color: lightseagreen
 }
 .navbar .dropdown ul {
   display: block;

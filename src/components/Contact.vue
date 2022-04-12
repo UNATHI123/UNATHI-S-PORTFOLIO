@@ -5,7 +5,7 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Contact Me</p>
+          <p>CONTACT ME</p>
         </div>
       </div>
 

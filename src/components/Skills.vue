@@ -62,7 +62,7 @@
 
         <div class="section-title">
 
-          <p>Technical Skills</p>
+          <p>TECHNICAL SKILLS</p>
         </div>
 
         <div class="row skillz-content">
@@ -187,7 +187,7 @@ export default {
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 .skills .box:hover span, .skills .box:hover h4, .skills .box:hover p {
-  color:orangered;
+  color:inherit;
 }
 
 .skillz .progress {
