@@ -8,7 +8,7 @@
 <Testimonials />
 <Contact />
 <Footer />
-
+<h1>Unathi</h1>
 
 </template>
 
@@ -46,16 +46,6 @@ export default {
   font-family: "Open Sans", sans-serif;
   background:#fff;
   color:#000;
-}
-
-a {
-  color: #cda45e;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #d9ba85;
-  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
