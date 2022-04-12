@@ -64,6 +64,8 @@
               <div class="text-center">
                 <button type="submit">Send Message</button></div>
             </form>
+<p class="text-end"><a class="nav-link scrollto " href="#hero">BACK TO TOP</a>
+</p>
 
           </div>
 

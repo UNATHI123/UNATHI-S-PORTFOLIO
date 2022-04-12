@@ -8,7 +8,7 @@
 <Testimonials />
 <Contact />
 <Footer />
-<h1>Unathi</h1>
+
 
 </template>
 
